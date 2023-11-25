@@ -1,0 +1,73 @@
+/* Nav Bar */
+
+.menu {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    
+}
+
+.menu img {
+    width: 120px;
+}
+
+#menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-list a {
+    color: #e5e7eB;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+
+#menu-list li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eB;
+}
+
+.hero .sign-up {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10%;
+    padding: 15px 30px;
+}
+
+.hero img {
+    max-height: 50vh;
+    border-radius: 100%;
+}
