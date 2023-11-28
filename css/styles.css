@@ -45,12 +45,13 @@
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px 50px;
+    align-items: center;
+    padding: 120px 180px;
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -69,5 +70,36 @@
 
 .hero img {
     max-height: 50vh;
-    border-radius: 100%;
+    border-radius: 10%;
+}
+
+/* Random info styles */
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.random {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.random img {
+    max-width: 240px;
+    margin: 50px 100px;
+    border: 2px solid #1F2937;
+    border-radius: 10%;
+
+}
+
+.random figcaption {
+    text-align: center;
+    font-size: 18px;
 }
